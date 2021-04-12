@@ -9,9 +9,13 @@ function onXHRLoad() {
 
 
         txtaWeather.value = ` Weather: ${apiData.weather[0].description} \n Temperature: ${apiData.main.temp} ºF \n Wind Speed: ${apiData.wind.speed} mph`
+<<<<<<< Updated upstream
         
 // **************
 
+=======
+}
+>>>>>>> Stashed changes
 function callAPI(URL) {
     var xhttp = new XMLHttpRequest()
     
@@ -30,5 +34,5 @@ function callAPI(URL) {
 // 3. *** add a new button onclick event and put the callAPI code into it ***
 
 btnWeather.onclick=function(){
-  callAPI(requestURL)
-}
+  callAPI(requestURL) 
+  }
